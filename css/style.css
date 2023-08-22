@@ -64,12 +64,31 @@ body{
     background-color: #009990;
 }
 
+.contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.email{
+    padding-top: 80%;
+}
+
+#footer{
+    background-color: #009990;
+    }
+    
+
 @media  (max-width: 480px) {
     .title{
         font-size: 3rem;
     }
 
-    .coffee[
+    .coffee{
         padding-top: 10px;
-    ]
+    }
+
+ .email{
+    padding-top: 5%
+ }
   }
