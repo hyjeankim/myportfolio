@@ -1,0 +1,75 @@
+body{
+    background-color: black;
+    color: #FCEDDA ;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Public Sans', sans-serif;
+}
+
+.nav-link{
+    color: #FCEDDA;
+}
+
+.test{
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+.name{
+    text-align: right;
+    text-transform: uppercase;
+    font-size: 8rem;
+    font-weight: 700;
+
+}
+
+
+.description{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    
+}
+
+.position{
+    padding-bottom: 80px;
+    font-size: 2rem;
+    text-transform: uppercase;
+    color: #009990;
+    font-weight: 700;
+
+}
+
+.image{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.title{
+    text-transform: uppercase;
+    font-size: 8rem;
+    font-weight: 700;
+}
+
+.highlight{
+    color: #009990;
+}
+
+.skill{
+   display: flex;
+   gap: 10px;
+}
+
+.btn{
+    background-color: #009990;
+}
+
+@media  (max-width: 480px) {
+    .title{
+        font-size: 3rem;
+    }
+
+    .coffee[
+        padding-top: 10px;
+    ]
+  }
